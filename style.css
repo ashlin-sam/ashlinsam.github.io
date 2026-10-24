@@ -1,0 +1,83 @@
+
+/* Basic page settings */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #222;
+}
+
+/* Navigation bar */
+nav {
+    
+    background-color: #111827;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+nav h2 {
+    color: white;
+    display: inline;
+    margin-right: 40px;
+}
+
+
+    nav a:hover {
+    color: #38bdf8;
+}
+
+
+/* All sections */
+section {
+    padding: 70px 10%;
+    min-height: 250px;
+}
+
+/* Home section */
+#home {
+    text-align: center;
+    background-color: #e0f2fe;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#home h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+
+ #home h2 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+    
+
+
+/* Section headings */
+section h2 {
+    font-size: 32px;
+}
+
+/* Skills */
+#skills li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Projects */
+#projects {
+    background-color: white;
+}
+
+/* Contact */
+#contact {
+    background-color: #e0f2fe;
+}
